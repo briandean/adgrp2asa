@@ -1,6 +1,5 @@
 Brian Dean - 3/27/2020
-This created during the COVID-19 pandemic of 2020 to help me manage DMZ access to internal machines for remote access workers.
-
+Created during the COVID-19 pandemic of 2020 to help manage DMZ access to internal machines for remote access workers.
 
 Used to query a group in Active Directory and export all computer accounts members and their descriptions to csv, then compile a list of ASA commands to create ASA fqdn objects and add those objects to an object group. 
 The py script will send the resulting commands to Solarwind's API for NCM to push to ASAs based on the ASA's IP in the orion-devices.csv file. 
