@@ -28,3 +28,9 @@ Brians-ASA# sh dns-hosts
 Host                     Flags      Age Type   Address(es)
 host1.test.local         (temp, OK) 0    IP    192.168.1.10
 host2.test.local         (temp, OK) 0    IP    192.168.1.11
+
+---Setup---
+Install the Solarwinds SDK for python
+Change the AD group and domain in pullgroups.ps1
+Change the servername, username,password for the Orion server in adgrp2asa.py
+You can change the object-group and description in adgrp2asa.py to meet your needs.
